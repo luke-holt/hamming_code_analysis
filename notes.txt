@@ -1,0 +1,10 @@
+In this text file, I note things that I learned during this project.
+
+Numpy arrays and memory addresses:
+    If x is a numpy.ndarray, and we assign x to y ("y = x"), address(x) = address(y), so if you change y, you also change x.
+    If you want to create a new instance of the array, you need to use "y = x.copy()".
+    This makes sense, because in a scenario where the arrays are large, you might not want to create a new instance of the array every time which would cost time and memory space.
+    This realization changed the way I structured the packet functions.
+
+Learned how to plot 3D graphs in MPL.
+    "meshgrid" makes surface plots easy.
